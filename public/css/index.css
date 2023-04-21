@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+}
+
+/* app */
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#both_side {
+  display: inline-flex;
+  margin-bottom: 200px;
+}
+
+#left_side {
+  justify-content: space-between;
+  align-items: center;
+  height: 620px;
+  width: 400px;
+  background-color: rgb(236, 235, 235);
+
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+
+#right_side {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.gameTable {
+  border: 1px solid black;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  height: 20px;
+  width: 2px;
+  margin: 0px;
+}
+
+.dead {
+  background-color: white;
+}
+
+.alive {
+  background-color: green;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls button {
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(68, 168, 235);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: rgb(71, 88, 241);
+}
+
+
+
+select {
+  height: 30px;
+  width: 160px;
+}
+
+#toggle {
+  display: inline-flex;
+}
+
+.generation {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.population {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.pattern-select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pattern-select:hover {
+  background-color: #f2f2f2;
+}
+
+.slider {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.slider-label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#logout-btn {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 5px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(47, 233, 63);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#logout-btn:hover {
+  background-color: rgb(27, 163, 15);
+}

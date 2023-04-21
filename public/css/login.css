@@ -1,0 +1,169 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+}
+
+#main {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+
+	top: 0;
+	left: 0;
+}
+
+#wrap-main-content {
+	width: 650px;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 65px 55px 25px 55px;
+	display: flex;
+	gap: 50px;
+}
+
+#wrap-help-content {
+	width: 300px;
+	padding: 0 0 0 15px;
+}
+
+.help_tille {
+	color: #5CA0F2;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#wrap-help-content h2 {
+	color: rgb(80, 216, 18);
+	font-weight: bold;
+}
+
+#wrap-help-content span {
+	font-weight: bold;
+}
+
+#wrap-login-content {
+	width: 300px;
+	padding: 0;
+}
+
+.a-form {
+	width: 100%;
+}
+
+.login-title {
+	display: block;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 1.2;
+	text-align: center;
+	margin: auto auto 10px;
+
+}
+
+.wrap-input {
+	width: 100%;
+	border-bottom: 2px solid #d9d9d9;
+	margin-bottom: 23px;
+}
+
+.label-input {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.5;
+	padding-left: 10px;
+}
+
+.textbox-input {
+	font-weight: 200;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: transparent;
+	padding: 3px 10px;
+}
+
+.error-msg {
+	display: block;
+	line-height: 1.2;
+	text-align: center;
+	margin: 10px;
+	color: red;
+}
+
+.wrap-btn {
+	position: relative;
+	justify-content: center;
+	border-radius: 25px;
+	width: 50%;
+	height: 50px;
+	margin: 20px 25%;
+	overflow: hidden;
+
+}
+
+.label-btn1 {
+	position: absolute;
+	vertical-align: middle;
+	margin: auto;
+	top: 47%;
+	left: 31%;
+	transform: translateX(-50%);
+	transform: translateY(-50%);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	z-index: 1;
+
+}
+
+.label-btn2 {
+	position: absolute;
+	vertical-align: middle;
+	margin: auto;
+	top: 48%;
+	left: 25%;
+	transform: translateX(-50%);
+	transform: translateY(-50%);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	z-index: 1;
+
+}
+
+.btn-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120px;
+	height: 80px;
+	opacity: 0;
+	z-index: 2;
+}
+
+.background-btn {
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 300%;
+	height: 100%;
+	border-radius: 25px;
+	background-image: linear-gradient(to right, #0004ff, #00dbde, #003cff, #00dbde);
+	transition: all 0.5s;
+}
+
+#login_btn:hover~#background-btn1 {
+	left: 0;
+}
+
+#signup_btn:hover~#background-btn2 {
+	left: 0;
+}
