@@ -25,10 +25,6 @@
 * Work well on computer only.
 
 
-## Demo Web
-* N/A
-
-
 ## 🌐 Web Screenshots
 ![1](https://user-images.githubusercontent.com/114270231/236593206-cf02a873-c43d-43c2-a0a0-1d78a0bf58e7.png)
 
